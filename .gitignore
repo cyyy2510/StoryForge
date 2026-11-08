@@ -22,3 +22,22 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+@'
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven build
+target/
+# Log files
+logs/
+
+# Local environment configuration
+/src/main/resources/application.yml
+
+# Environment variables and secrets
+.env
+.env.*
+'@ | Add-Content .\.gitignore
