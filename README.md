@@ -15,6 +15,7 @@ novel 是一套基于 Java 技术栈 Spring Boot 3 + Vue 3 开发的前后端分
 - Maven 3.8
 - IntelliJ IDEA
 - Node 16.14
+- Livekit 0.17.0
 
 **注：Elasticsearch、RabbitMQ 和 XXL-JOB 默认关闭，可通过 application.yml 配置文件中相应的`enable`配置属性开启。**
 
@@ -40,7 +41,7 @@ novel 是一套基于 Java 技术栈 Spring Boot 3 + Vue 3 开发的前后端分
 | Spring Boot Admin   |   3.0.0-M1   | 应用管理和监控                 | [进入](https://github.com/codecentric/spring-boot-admin)              |                              [进入](https://codecentric.github.io/spring-boot-admin/3.0.0-M1)                              |
 | Tomcat              | 10.1.24      | Spring Boot 默认内嵌 Web 容器 | [进入](https://tomcat.apache.org) |                                       [进入](https://tomcat.apache.org/tomcat-10.1-doc/index.html)                                       |
 | Docker              |      -       | 应用容器引擎                  | [进入](https://www.docker.com/)             |                                                            -                                                             |                                                         -                                                             |
-
+| LiveKit              |      -       | 开源 WebRTC 实时音视频服务                  | [进入](https://livekit.com/)             | [进入](https://docs.livekit.io/intro/overview/)       | 
 
 
 
@@ -103,7 +104,7 @@ io
 
 1. 首页
 
-![img](https://cyyy25100.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-10-31%20173359.png?Expires=1793787960&OSSAccessKeyId=TMP.3KyAEF5LafUun7F2FHHWKtrHcwMdQPP7Sra7e4ppT8qr2LaBYVQtDaJ6B9qWUx5Pd9vysizmbnxTEyNdkBJ9urvvzmZRB6&Signature=u24zQOagCcnsLuLEOqyaOiYxbJE%3D)
+![img](https://cyyy25100.oss-cn-beijing.aliyuncs.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-10-31%20173359.png?Expires=1794187376&OSSAccessKeyId=TMP.3KywehtBCYxFKfaUfRD2ZZFr21bsLoCtBV6ESVkNCQhW35UumiYDZWDfQSNooyn2oZzgyUoTBYZjLEzNhyMGj3LjwFGed4&Signature=aMZyg%2FvgMLCyNFY7xoY5i3UaQcA%3D)
 
 2. 分类索引页
 
@@ -111,7 +112,6 @@ io
 
 3. 搜索页
 
-![img](https://s3.ax1x.com/2020/12/27/r5TO8x.png)
 
 ![img](https://oscimg.oschina.net/oscnet/up-ed5f689557718924acac76bc3ebca36afcb.png)
 
